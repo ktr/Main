@@ -1,0 +1,13 @@
+{
+    "version": "0.1.85",
+    "description": "xlcat is like cat except for Excel files",
+    "homepage": "https://xlpro.tips/posts/xlcat/",
+    "license": "MIT",
+    "url": "https://github.com/xlprotips/xl/releases/download/v0.1.85/xlcat-v0.1.85-windows64.zip",
+    "hash": "sha256:b3eeb0f6df18a24cc6a89f32563e671753a40c7717c40aef62a1c402e81c9520",
+    "bin": "xlcat.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/xlprotips/xl/releases/download/v$version/xlcat-v$version-windows64.zip"
+    }
+}
